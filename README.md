@@ -4,12 +4,12 @@ For more detail about surface nets, please refer to [articles](https://cerbion.n
 This is meant for 3D project, assume you already worked out how to render 3D models.  
 As provided, these function will generate model buffer with standard format:
 ```
-	vertex_format_begin();
-	vertex_format_add_position_3d();
-	vertex_format_add_normal();
-	vertex_format_add_texcoord();
-	vertex_format_add_colour();
-	global.stdFormat = vertex_format_end();
+vertex_format_begin();
+vertex_format_add_position_3d();
+vertex_format_add_normal();
+vertex_format_add_texcoord();
+vertex_format_add_colour();
+global.stdFormat = vertex_format_end();
 ```
 Some commands is also required for this function to work, such as normalize, cross_product,... You can check them inside [Requisitive_function](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/scripts/Requisitive_function/Requisitive_function.gml "Requisitive_function") script (they might already included in your project).
 ## How to use
