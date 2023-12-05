@@ -1,7 +1,7 @@
 # Naive surface nets for GameMaker2
 ![](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/screenshot/Untitled.png?raw=true)
-For more detail about surface nets, please refer to [articles](https://cerbion.net/blog/understanding-surface-nets/ "articles") about this subject.
-This is meant for 3D project, assume you already worked out how to render 3D models.
+For more detail about surface nets, please refer to [articles](https://cerbion.net/blog/understanding-surface-nets/ "articles") about this subject.  
+This is meant for 3D project, assume you already worked out how to render 3D models.  
 As provided, these function will generate model buffer with standard format:
 ```
 	vertex_format_begin();
@@ -30,8 +30,8 @@ Create vertex buffer and render
 	vertex_submit(buffer , pr_trianglelist, -1);
 ```
 ### Draw back
-This script use iso gradient to estimate surface direction, which can be inaccurate near sharp corners.
-The process can be very slow and intense on CPU, real time generation is not possible.
+- This script use iso gradient to estimate surface direction, which can be inaccurate near sharp corners.
+- The process can be very slow and intense on CPU, real time generation is not possible.
 ## Screenshot
 #### Box shape
 ```
