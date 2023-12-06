@@ -13,7 +13,7 @@ global.stdFormat = vertex_format_end();
 ```
 Some commands is also required for this function to work, such as normalize, cross_product,... You can check them inside [Requisitive_function](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/scripts/Requisitive_function/Requisitive_function.gml "Requisitive_function") script (they might already included in your project).
 ## How to use
-- **auto\_mesh** functions are included as simple example on how to use this function. You should create your own function to fit your use case.
+**auto\_mesh** functions are included as simple example on how to use this function. You should create your own function to fit your use case.  
 - First, use **auto\_mesh\_create()** to create a list to contain shapes information.
 - Then, use **auto\_mesh\_add**_ to add shapes into this list.
 - Finally supply the shape list and a buffer into the function naive_surface_nets() to generate mesh.
