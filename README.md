@@ -27,12 +27,14 @@ naive_surface_nets(mesh, buffer, 32, 0.5, 3);
 ```
 Create vertex buffer and render
 ```
-vertex_buff = vertex_create_buffer_from_buffer(buffer , global.stdFormat)
+vertex_buff = vertex_create_buffer_from_buffer(buffer, global.stdFormat)
 vertex_submit(vertex_buff, pr_trianglelist, -1);
 ```
 ### Draw back
 - This script use iso gradient to estimate surface direction, which can be inaccurate near sharp corners.
 - The process can be very slow and intense on CPU, real time generation is not possible.
+- If the shape is too small it can create extra, unnecessary vertexs inside the shape, invisible from outside.
+- I'm not very good at this.
 ## Screenshot
 #### Box shape
 ```
