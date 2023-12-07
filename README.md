@@ -21,8 +21,8 @@ Import the script directly into your project.
 ```
 buffer = buffer_create(64, buffer_grow, 1)
 mesh = auto_mesh_create();
-auto_mesh_add_AABB(mesh_test,10,100,10,300,200,200)
-auto_mesh_add_sphere(mesh_test, 150, 150, 300, 130)
+auto_mesh_add_AABB(mesh,10,100,10,300,200,200)
+auto_mesh_add_sphere(mesh, 150, 150, 300, 130)
 naive_surface_nets(mesh, buffer, 32, 0.5, 3);
 ```
 Create vertex buffer and render
