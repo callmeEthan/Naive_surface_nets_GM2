@@ -17,7 +17,7 @@ Import the script directly into your project.
 **auto\_mesh** functions are included as simple example on how to use this function. You should create your own function to fit your use case.  
 - First, use **auto\_mesh\_create()** to create a list to contain shapes information.
 - Then, use **auto\_mesh\_add**_ to add shapes into this list.
-- Finally supply the shape list and a buffer into the function naive_surface_nets() to generate mesh.
+- Finally supply the shape list and a buffer into the function **naive\_surface\_nets** to generate mesh.
 ```
 buffer = buffer_create(64, buffer_grow, 1)
 mesh = auto_mesh_create();
@@ -51,7 +51,6 @@ auto_mesh_add_sphere(mesh_test, 300, 150, 150, 120)
 auto_mesh_add_noise(mesh_test,0,0,0,2048,2048,600);
 ```
 ![](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/screenshot/noise_strip.png?raw=true)
-```
-naive_surface_nets_smooth_normal()
-```
+
+with **naive\_surface\_nets\_smooth\_normal** function
 ![](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/screenshot/noise_normalstrip.png?raw=true)
