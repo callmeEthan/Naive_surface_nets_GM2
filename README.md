@@ -51,5 +51,7 @@ auto_mesh_add_sphere(mesh_test, 300, 150, 150, 120)
 auto_mesh_add_noise(mesh_test,0,0,0,2048,2048,600);
 ```
 ![](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/screenshot/noise_strip.png?raw=true)
-With naive_surface_nets_smooth_normal() function
+```
+naive_surface_nets_smooth_normal()
+```
 ![](https://github.com/callmeEthan/Naive_surface_nets_GM2/blob/main/screenshot/noise_normalstrip.png?raw=true)
