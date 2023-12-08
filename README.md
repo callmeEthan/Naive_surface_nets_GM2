@@ -35,7 +35,7 @@ vertex_submit(vertex_buff, pr_trianglelist, -1);
 - The process can be very slow and intense on CPU, real time generation is not possible.
 - If the shape is too small it can create extra, unnecessary vertexs inside the shape, invisible from outside.
 - Due to the nature of this method, the final mesh will become 'shrinked', user should take this into account.
-- I'm not very good at this.
+- I'm suck at coding.
 ## Screenshot
 #### Box shape
 ```
