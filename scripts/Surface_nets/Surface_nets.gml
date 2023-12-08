@@ -91,7 +91,7 @@ function auto_mesh_bound(mesh)
 	return [xmin, ymin, zmin, xmax, ymax, zmax]
 }
 
-function naive_surface_nets(mesh, buffer, scale, level, iterate=1, interpolate=0.8)
+function naive_surface_nets(mesh, buffer, scale, level, iterate=1, interpolate=0.9)
 {
 	/* How to:
 	Create a mesh list by using auto_mesh_create() first, then add shapes by using auto_mesh_add_*() commands.
