@@ -286,7 +286,7 @@ function naive_surface_nets(mesh, buffer, scale, level, iterate=1, interpolate=0
 				buffer_add_vertex(buffer, pos0[0], pos0[1], pos0[2], normal[0],normal[1],normal[2], 0,1, col, 1)
 				buffer_add_vertex(buffer, pos1[0], pos1[1], pos1[2], normal[0],normal[1],normal[2], 1,1, col, 1)
 				buffer_add_vertex(buffer, pos3[0], pos3[1], pos3[2], normal[0],normal[1],normal[2], 0,0, col, 1)
-				cross_product(hand1, hand2, normal)
+				cross_product(hand4, hand3, normal)
 				buffer_add_vertex(buffer, pos1[0], pos1[1], pos1[2], normal[0],normal[1],normal[2], 1,1, col, 1)
 				buffer_add_vertex(buffer, pos2[0], pos2[1], pos2[2], normal[0],normal[1],normal[2], 1,0, col, 1)
 				buffer_add_vertex(buffer, pos3[0], pos3[1], pos3[2], normal[0],normal[1],normal[2], 0,0, col, 1)
@@ -319,7 +319,7 @@ function naive_surface_nets(mesh, buffer, scale, level, iterate=1, interpolate=0
 				buffer_add_vertex(buffer, pos0[0], pos0[1], pos0[2], normal[0],normal[1],normal[2], 0,1, col, 1)
 				buffer_add_vertex(buffer, pos1[0], pos1[1], pos1[2], normal[0],normal[1],normal[2], 1,1, col, 1)
 				buffer_add_vertex(buffer, pos3[0], pos3[1], pos3[2], normal[0],normal[1],normal[2], 0,0, col, 1)
-				cross_product(hand1, hand2, normal)
+				cross_product(hand4, hand3, normal)
 				buffer_add_vertex(buffer, pos1[0], pos1[1], pos1[2], normal[0],normal[1],normal[2], 1,1, col, 1)
 				buffer_add_vertex(buffer, pos2[0], pos2[1], pos2[2], normal[0],normal[1],normal[2], 1,0, col, 1)
 				buffer_add_vertex(buffer, pos3[0], pos3[1], pos3[2], normal[0],normal[1],normal[2], 0,0, col, 1)
@@ -352,7 +352,7 @@ function naive_surface_nets(mesh, buffer, scale, level, iterate=1, interpolate=0
 				buffer_add_vertex(buffer, pos0[0], pos0[1], pos0[2], normal[0],normal[1],normal[2], 0,1, col, 1)
 				buffer_add_vertex(buffer, pos1[0], pos1[1], pos1[2], normal[0],normal[1],normal[2], 1,1, col, 1)
 				buffer_add_vertex(buffer, pos3[0], pos3[1], pos3[2], normal[0],normal[1],normal[2], 0,0, col, 1)
-				cross_product(hand1, hand2, normal)
+				cross_product(hand4, hand3, normal)
 				buffer_add_vertex(buffer, pos1[0], pos1[1], pos1[2], normal[0],normal[1],normal[2], 1,1, col, 1)
 				buffer_add_vertex(buffer, pos2[0], pos2[1], pos2[2], normal[0],normal[1],normal[2], 1,0, col, 1)
 				buffer_add_vertex(buffer, pos3[0], pos3[1], pos3[2], normal[0],normal[1],normal[2], 0,0, col, 1)
@@ -513,7 +513,7 @@ function naive_surface_nets_smooth_normal(mesh, buffer, scale, level, iterate=1,
 				pos0[@6]+=normal[0];	pos0[@7]+=normal[1];	pos0[@8]+=normal[2]
 				pos1[@6]+=normal[0];	pos1[@7]+=normal[1];	pos1[@8]+=normal[2]
 				pos3[@6]+=normal[0];	pos3[@7]+=normal[1];	pos3[@8]+=normal[2]
-				cross_product(hand1, hand2, normal)
+				cross_product(hand4, hand3, normal)
 				pos1[@6]+=normal[0];	pos1[@7]+=normal[1];	pos1[@8]+=normal[2]
 				pos2[@6]+=normal[0];	pos2[@7]+=normal[1];	pos2[@8]+=normal[2]
 				pos3[@6]+=normal[0];	pos3[@7]+=normal[1];	pos3[@8]+=normal[2]
@@ -545,7 +545,7 @@ function naive_surface_nets_smooth_normal(mesh, buffer, scale, level, iterate=1,
 				pos0[@6]+=normal[0];	pos0[@7]+=normal[1];	pos0[@8]+=normal[2]
 				pos1[@6]+=normal[0];	pos1[@7]+=normal[1];	pos1[@8]+=normal[2]
 				pos3[@6]+=normal[0];	pos3[@7]+=normal[1];	pos3[@8]+=normal[2]
-				cross_product(hand1, hand2, normal)
+				cross_product(hand4, hand3, normal)
 				pos1[@6]+=normal[0];	pos1[@7]+=normal[1];	pos1[@8]+=normal[2]
 				pos2[@6]+=normal[0];	pos2[@7]+=normal[1];	pos2[@8]+=normal[2]
 				pos3[@6]+=normal[0];	pos3[@7]+=normal[1];	pos3[@8]+=normal[2]
@@ -577,7 +577,7 @@ function naive_surface_nets_smooth_normal(mesh, buffer, scale, level, iterate=1,
 				pos0[@6]+=normal[0];	pos0[@7]+=normal[1];	pos0[@8]+=normal[2]
 				pos1[@6]+=normal[0];	pos1[@7]+=normal[1];	pos1[@8]+=normal[2]
 				pos3[@6]+=normal[0];	pos3[@7]+=normal[1];	pos3[@8]+=normal[2]
-				cross_product(hand1, hand2, normal)
+				cross_product(hand4, hand3, normal)
 				pos1[@6]+=normal[0];	pos1[@7]+=normal[1];	pos1[@8]+=normal[2]
 				pos2[@6]+=normal[0];	pos2[@7]+=normal[1];	pos2[@8]+=normal[2]
 				pos3[@6]+=normal[0];	pos3[@7]+=normal[1];	pos3[@8]+=normal[2]
